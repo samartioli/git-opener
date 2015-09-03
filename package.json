@@ -1,0 +1,26 @@
+{
+  "name": "git-opener",
+  "version": "1.0.1",
+  "description": "Type `git open` to open the GitHub page or website for a repository.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samartioli/git-opener.git"
+  },
+  "keywords": [
+    "git",
+    "cli"
+  ],
+  "bin": {
+    "git-open": "git-open.js"
+  },
+  "author": "Sam Artioli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samartioli/git-opener/issues"
+  },
+  "homepage": "https://github.com/samartioli/git-opener",
+  "dependencies": {
+    "shelljs": "^0.5.3",
+    "yargs": "^3.23.0"
+  }
+}
